@@ -16,7 +16,7 @@ print(f'Segitiga dengan alas={alas} dan tinggi={tinggi} memiliki luas {luas_segi
 
 print('\nMembuat fungsi hitung_luas_segitiga')
 def hitung_luas_segitiga(alas, tinggi):
-    luas_segitiga = alas * tinggi / 2K
+    luas_segitiga = alas * tinggi / 2
     return luas_segitiga
 
 print(f'Menghitung segitiga dengan fungsi, hasilnya = {hitung_luas_segitiga(10, 6)}')
